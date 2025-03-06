@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const API_URL = "http://localhost:9000";
-// const API_URL = "https://my-items-back-0124.onrender.com";
 
 const setAuthHeaders = (token) => {
     console.log("token: " + token);
